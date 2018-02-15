@@ -11,6 +11,15 @@ app.get("/fallinlovewith/:thing", function(req, res) {
     //res.send("You fell in love with " + thing); 
 });
 
+app.get("/posts", function(req, res) {
+   var posts = [
+       {title: "Bed and Breakfasts", author: "Luna"}, 
+       {title: "Dogs Suck", author: "Sully"},
+       {title: "Holy Crap I'm Scared", author: "Beatrice"}
+    ]; 
+    res.render("posts.ejs", {posts: posts});
+});
+
 app.listen(process.env.PORT, process.env.IP, function() {
    console.log("LISTENING ON PORT " + process.env.PORT); 
 });
