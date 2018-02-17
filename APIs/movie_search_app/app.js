@@ -8,6 +8,8 @@ app.get("/", function(req, res) {
 });
 
 app.get("/results", function(req, res) {
+   //.search is the piece of information that we named....name=search in input 
+   //5:20 in video 247 for explanation
    var query = req.query.search;
    var url = "http://www.omdbapi.com/?apikey=thewdb&s=" + query;
    request(url, function(error, response, body) {
