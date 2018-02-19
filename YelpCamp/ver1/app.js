@@ -9,6 +9,12 @@ app.set("view engine", "ejs");
 var campgrounds = [
        {name: "Salmon Creek", image: "http://www.destination360.com/north-america/us/kentucky/images/s/kentucky-camping.jpg"},
        {name: "Sick Ravine", image: "https://ridb.recreation.gov/images/80357.jpg"},
+       {name: "Tall Peak", image: "https://ridb.recreation.gov/images/83164.jpg"},
+       {name: "Salmon Creek", image: "http://www.destination360.com/north-america/us/kentucky/images/s/kentucky-camping.jpg"},
+       {name: "Sick Ravine", image: "https://ridb.recreation.gov/images/80357.jpg"},
+       {name: "Tall Peak", image: "https://ridb.recreation.gov/images/83164.jpg"},
+       {name: "Salmon Creek", image: "http://www.destination360.com/north-america/us/kentucky/images/s/kentucky-camping.jpg"},
+       {name: "Sick Ravine", image: "https://ridb.recreation.gov/images/80357.jpg"},
        {name: "Tall Peak", image: "https://ridb.recreation.gov/images/83164.jpg"}
 ]; 
 
