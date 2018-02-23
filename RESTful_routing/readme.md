@@ -14,3 +14,10 @@ CREATE
 READ /readAll
 UPDATE /updateDog/:id
 DESTROY /delete/:id
+
+#Blog INDEX
+* Setup the blog app
+* Create the blog model
+* Add INDEX route and template
+* Add simple navbar
+
