@@ -19,5 +19,16 @@ DESTROY /delete/:id
 * Setup the blog app
 * Create the blog model
 * Add INDEX route and template
+
+#Basic Layout
+* Add header and footer partials
+* Include Semantic UI
 * Add simple navbar
+
+#Putting the C in CRUD
+* Add NEW route
+* Add NEW template
+* Add CREATE route
+* Add CREATE template
+
 

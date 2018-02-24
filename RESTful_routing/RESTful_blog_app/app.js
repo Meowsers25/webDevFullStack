@@ -25,6 +25,7 @@ app.get("/", function(req, res) {
    res.redirect("/blogs"); 
 });
 
+//INDEX ROUTE
 app.get("/blogs", function(req, res) {
     Blog.find({}, function(err, blogs) {
         if(err) {
@@ -33,6 +34,11 @@ app.get("/blogs", function(req, res) {
             res.render("index", {blogs: blogs}); 
         }
     });
+});
+
+//NEW ROUTE
+app.get("/blogs/new", function(req, res) {
+   res.render("new"); 
 });
 
 app.listen(process.env.PORT, process.env.IP, function() {
