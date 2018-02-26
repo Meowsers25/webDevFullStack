@@ -30,5 +30,15 @@ DESTROY /delete/:id
 * Add NEW template
 * Add CREATE route
 * Add CREATE template
+ 
+#SHOWTIME
+* Add a SHOW route
+* Add SHOW template
+* Add links to a show page
+* Style SHOW template
+
+
+ 
+
 
 
