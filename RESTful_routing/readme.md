@@ -44,6 +44,8 @@ DESTROY /delete/:id
 * Add UPDATE form
 * Add Method-Overide
  
-
+#DESTROY!!!!!!
+* Add DESTROY route
+* Add EDIT and DESTROY links
 
 
