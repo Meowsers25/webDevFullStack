@@ -37,7 +37,12 @@ DESTROY /delete/:id
 * Add links to a show page
 * Style SHOW template
 
-
+#EDIT and UPDATE
+* Add EDIT route
+* Add EDIT form
+* Add UPDATE route
+* Add UPDATE form
+* Add Method-Overide
  
 
 
