@@ -48,4 +48,8 @@ DESTROY /delete/:id
 * Add DESTROY route
 * Add EDIT and DESTROY links
 
+#Final Updates
+* Sanitize blog body
+* Style INDEX
+* Update REST table
 
